@@ -1,0 +1,85 @@
+.main-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+
+  background-image: url("https://abglt.org.br/wp-content/uploads/2020/10/wallpaper-pc1-scaled.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  transition: all 0.5s;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+
+  margin-top: 20px;
+
+  font-family: 'Poppins';
+}
+
+header input, header button{
+  width: 50%;
+  height: 40px;
+
+  padding: 10px 10px;
+
+  border-radius:8px;
+  box-shadow: 2px 3px rgba(0, 0, 0, 0.2);
+
+  font-size: 14px;
+} 
+
+header button{
+  width: 20%;
+  margin-left: 20px;
+
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+header button:hover{
+  filter: brightness(0.9)
+}
+
+.information-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: 'Poppins';
+  color: #fff;
+}
+
+.information-container h2{
+  margin-top: 100px;
+  font-size: 50px;
+  letter-spacing: 2px;
+
+}
+
+.information-container h2:nth-child(2){
+  margin-top: 50px;
+}
+
+.information-container p{
+  font-size: 20px;
+}
+
+.container-degrees{
+  background-color: rgba(255, 255, 255, 0.418);
+  border-radius: 16px;
+  box-shadow: 4px 5px rgba(0, 0, 0, 0.2);
+
+  padding: 15px 40px;
+  margin-top: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 120px;
+}
