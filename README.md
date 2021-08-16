@@ -4,8 +4,8 @@ Projeto desenvolvido com o intuito de colocar em prática o aprendizado de React
 
 # Tecnologias Utilizadas
 
-*Reactjs
-*API openweather
+* Reactjs
+* API openweather
 
 # Como rodar?
 
