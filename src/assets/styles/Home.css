@@ -13,7 +13,7 @@
   transition: all 0.5s;
 }
 
-header{
+form{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -24,7 +24,7 @@ header{
   font-family: 'Poppins';
 }
 
-header input, header button{
+form input, form button{
   width: 50%;
   height: 40px;
 
@@ -36,7 +36,7 @@ header input, header button{
   font-size: 14px;
 } 
 
-header button{
+form button{
   width: 20%;
   margin-left: 20px;
 
@@ -44,7 +44,7 @@ header button{
   transition: all 0.4s;
 }
 
-header button:hover{
+form button:hover{
   filter: brightness(0.9)
 }
 
@@ -82,4 +82,26 @@ header button:hover{
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   font-size: 120px;
+}
+
+.change-unit-container {
+  display: flex;
+  gap: 10px;
+
+  margin-top: 30px;
+}
+
+.change-unit-container button{
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.918);
+
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.change-unit-container button.active {
+  background-color: rgba(255, 255, 255, 0.318);
+  color: #fff;
 }
